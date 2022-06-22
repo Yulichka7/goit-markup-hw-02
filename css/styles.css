@@ -1,3 +1,93 @@
+:root{
+    --main-text-color: #757575;
+    --title-color: #212121;
+    --hero-background-color: #2F303A;
+    --hero-title-color: #FFFFFF;
+    --links-color: #2196F3;
+
+}
+
 body {
-    background-color: #fff;
+    background: #FFFFFF;
+    color:#757575;
+}
+
+.list{
+    list-style: none;
+}
+/* цвет основного текста  #212121 */
+/* вторичный цвет текста  #757575*/
+/* белый  #FFFFFF */
+/* акцент #2196F3 */
+
+.contact-m{
+    color: var(--links-color);
+}
+
+.contack-t{
+    color: #757575;
+}
+
+.logo{
+    color: var(--links-color);
+}
+
+.nav .link{
+color: var(--title-color);
+}
+
+.nav .link:hover,
+.nav .link:focus{
+color: var(--links-color);
+}
+
+.hero {
+    background-color: var(--hero-background-color);
+}
+
+.hero-title {
+color: var(--hero-title-color)
+}
+
+.feature{
+color: var(--main-text-color);
+}
+
+.feature .title{
+    color: var(--title-color);
+}
+
+.section-title{
+    color: var(--title-color);
+}
+
+.work-list{
+    color: var(--main-text-color);
+}
+
+.work-list .title {
+    color: var(--title-color);
+}
+
+.footer{
+    background-color: #2F303A;
+}
+
+.footer-nav .link{
+    color: #FFFFFF;
+}
+
+.footer-nav .link-contact{
+    color: rgba(255, 255, 255, 0.6)
+}
+
+.footer-nav .link:hover,
+.footer-nav .link:focus {
+    color: var(--links-color);
+}
+
+
+.footer-nav .link-contact:hover,
+.footer-nav .link-contact:focus {
+    color: var(--links-color);
 }
