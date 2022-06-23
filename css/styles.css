@@ -5,6 +5,9 @@
     --hero-title-color: #FFFFFF;
     --links-color: #2196F3;
 
+    --button-main-color: #212121;
+    --button-seconary-color: #FFFFFF;
+
 }
 
 body {
@@ -15,10 +18,6 @@ body {
 .list{
     list-style: none;
 }
-/* цвет основного текста  #212121 */
-/* вторичный цвет текста  #757575*/
-/* белый  #FFFFFF */
-/* акцент #2196F3 */
 
 .contact-m{
     color: var(--links-color);
@@ -41,12 +40,27 @@ color: var(--title-color);
 color: var(--links-color);
 }
 
+.nav .link-current {
+    color: var(--links-color);
+}
+
+
 .hero {
-    background-color: var(--hero-background-color);
+background-color: var(--hero-background-color);
+width: 1600px;
+height: 600px;
+text-align: center;
+text-transform: uppercase;
+ 
 }
 
 .hero-title {
-color: var(--hero-title-color)
+color: var(--hero-title-color);
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+text-align: center;
+text-transform: uppercase;
 }
 
 .feature{
@@ -55,10 +69,25 @@ color: var(--main-text-color);
 
 .feature .title{
     color: var(--title-color);
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.14;
+        text-transform: uppercase;
+}
+
+.feature .text{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+
 }
 
 .section-title{
     color: var(--title-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
 }
 
 .work-list{
@@ -90,4 +119,38 @@ color: var(--main-text-color);
 .footer-nav .link-contact:hover,
 .footer-nav .link-contact:focus {
     color: var(--links-color);
+}
+
+.button{
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+.button.primary{
+    color: #FFFFFF;
+    background: #2196F3;
+    font-weight: 700;
+        font-size: 16px;
+        line-height: 1.88;
+}
+
+/* portfolio css */
+
+
+.button.seconary {
+    color: var(--button-main-color212121);
+    background: #F5F4FA;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+}
+
+.filter{
+    list-style: none;
+}
+
+.filter .button.seconary:hover,
+.filter .button.seconary:focus {
+    color: var(--button-seconary-color);
+    background: #2196F3 ;
 }
