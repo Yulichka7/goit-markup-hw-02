@@ -28,6 +28,17 @@ body {
     color: var(--links-color);
 }
 
+.list .contact-m:hover,
+.list .contact-m:focus {
+    color: #757575;
+}
+
+.list .contact-t:hover,
+.list .contact-t:focus {
+color: var(--links-color);
+}
+
+
 .contact-t{
     color: #757575;
 }
