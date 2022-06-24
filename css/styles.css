@@ -12,27 +12,37 @@
 
 body {
     background: #FFFFFF;
-    color:#757575;
+    font-family: Roboto;
 }
 
 .list{
     list-style: none;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    
 }
 
 .contact-m{
     color: var(--links-color);
 }
 
-.contack-t{
+.contact-t{
     color: #757575;
 }
 
 .logo{
     color: var(--links-color);
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
 }
 
 .nav .link{
 color: var(--title-color);
+
 }
 
 .nav .link:hover,
@@ -100,6 +110,10 @@ color: var(--main-text-color);
 
 .footer{
     background-color: #2F303A;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
 }
 
 .footer-nav .link{
@@ -138,19 +152,39 @@ color: var(--main-text-color);
 
 
 .button.seconary {
-    color: var(--button-main-color212121);
+    color: var(--button-main-color);
     background: #F5F4FA;
-    font-weight: 700;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
     font-size: 16px;
-    line-height: 1.88;
+    line-height: 1.62;
 }
 
 .filter{
     list-style: none;
+  
+      
 }
 
 .filter .button.seconary:hover,
 .filter .button.seconary:focus {
     color: var(--button-seconary-color);
     background: #2196F3 ;
+}
+
+.title{
+    color: #212121;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+}
+
+.text{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.9;
+      
 }
